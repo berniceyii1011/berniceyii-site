@@ -57,6 +57,24 @@ nav a:hover {
   color: #bbbbbb;
 }
 
+/* 背景视频 */
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+/* 内容覆盖层（透明+科技感） */
+.content {
+  position: relative;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.4); /* 半透明遮罩 */
+  min-height: 100vh;
+}
 /* Footer */
 footer {
   text-align: center;
