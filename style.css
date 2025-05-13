@@ -57,24 +57,28 @@ nav a:hover {
   color: #bbbbbb;
 }
 
-/* 背景视频 */
+/* 让背景视频固定占满全屏 */
 #bg-video {
   position: fixed;
   top: 0;
   left: 0;
   min-width: 100%;
   min-height: 100%;
+  width: auto;
+  height: auto;
   object-fit: cover;
-  z-index: -2;
+  z-index: -1;
 }
 
-/* 内容覆盖层（透明+科技感） */
+/* 让页面内容浮在视频之上 */
 .content {
   position: relative;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.4); /* 半透明遮罩 */
+  background: rgba(0, 0, 0, 0.5); /* 半透明遮罩 */
+  color: white;
   min-height: 100vh;
 }
+
 /* Footer */
 footer {
   text-align: center;
