@@ -95,6 +95,10 @@ nav.nav-links a:hover {
   .hamburger {
     display: block;
   }
+
+  .sidebar {
+    display: flex; /* Only show sidebar in mobile */
+  }
 }
 
 /* Desktop view: hide mobile sidebar */
