@@ -19,8 +19,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background-color：#000000;
-  border-bottom: 1px solid #1f1f1f;
+  background-color: #000000;
 }
 
 .logo img {
@@ -85,7 +84,6 @@ footer {
   text-align: center;
   padding: 20px;
   background: transparent;
-  border-top: 1px solid #1f1f1f;
-  color: #666;
+  color: white;
   font-size: 0.9rem;
 }
