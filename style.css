@@ -87,3 +87,17 @@ footer {
   color: white;
   font-size: 0.9rem;
 }
+
+/*--------------------------------------------------------------*/
+
+.contact {
+  text-align: center;
+  padding: 100px 20px;
+  background: transparent;
+}
+
+.contact h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
