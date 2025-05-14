@@ -91,9 +91,10 @@ footer {
 /*--------------------------------------------------------------*/
 
 .about {
+  position: relative;
+  z-index: 1;
   text-align: center;
-  padding: 150px 30px;
-  background: transparent;
+  padding: 0px;
 }
 
 .about h1 {
