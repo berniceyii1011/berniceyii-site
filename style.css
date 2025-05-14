@@ -88,7 +88,7 @@ nav.nav-links a:hover {
     align-items: center;
   }
 
-  .nav-links {
+  nav.nav-links {
     display: none; /* Hide main nav */
   }
 
