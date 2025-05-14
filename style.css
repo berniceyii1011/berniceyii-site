@@ -97,6 +97,14 @@ nav.nav-links a:hover {
   }
 }
 
+/* Desktop view: hide mobile sidebar */
+@media screen and (min-width: 769px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+
 /* Hero Section */
 .hero {
   text-align: center;
