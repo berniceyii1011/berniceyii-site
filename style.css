@@ -26,6 +26,11 @@ header {
   height: 30px;
 }
 
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 
 nav a {
   margin-left: 20px;
@@ -38,13 +43,26 @@ nav a:hover {
   color: #00eaff;
 }
 
+/* Responsive */
 @media screen and (max-width: 768px) {
-      nav {
-        width: 100%;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-top: 10px;
-      }
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  nav a {
+    margin: 10px 15px 0 0;
+  }
+}
 
 /* Hero Section */
 .hero {
@@ -64,8 +82,7 @@ nav a:hover {
   color: #bbbbbb;
 }
 
-/* 让背景视频固定占满全屏 */
-/* 背景视频固定覆盖全屏 */
+/* Background video fullscreen */
 #bg-video {
   position: fixed;
   top: 0;
@@ -75,10 +92,10 @@ nav a:hover {
   width: auto;
   height: auto;
   object-fit: cover;
-  z-index: -1; /* 放到最底层 */
+  z-index: -1;
 }
 
-/* 所有内容在视频上方显示 */
+/* Content over video */
 .content {
   position: relative;
   z-index: 1;
@@ -96,23 +113,3 @@ footer {
   font-size: 0.9rem;
 }
 
-/*--------------------------------------------------------------*/
-
-.about {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  padding: 0px;
-}
-
-.about h1 {
-  font-size: 1.8rem;
-  margin-top: 50px;
-  color: #ffffff;
-}
-
-.about p {
-  font-size: 1rem;
-  margin-top: 20px;
-  color: grey;
-}
