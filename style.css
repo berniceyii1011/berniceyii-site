@@ -89,15 +89,19 @@ nav.nav-links a:hover {
   }
 
   nav.nav-links {
-    display: none; /* Hide main nav */
+    display: none !important; /* Force hide the desktop nav */
   }
 
   .hamburger {
-    display: block;
+    display: block; /* Show hamburger menu */
   }
 
   .sidebar {
-    display: flex; /* Only show sidebar in mobile */
+    display: none; /* Initially hide sidebar */
+  }
+
+  .sidebar.active {
+    display: flex; /* Show sidebar when active */
   }
 }
 
@@ -107,7 +111,6 @@ nav.nav-links a:hover {
     display: none;
   }
 }
-
 
 /* Hero Section */
 .hero {
