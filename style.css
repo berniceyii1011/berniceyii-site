@@ -23,13 +23,13 @@ header {
 }
 
 .logo img {
-  height: 25px;
+  height: 30px;
 }
 
 
 nav a {
   margin-left: 20px;
-  color: #cccccc;
+  color: white;
   text-decoration: none;
   transition: color 0.3s;
 }
